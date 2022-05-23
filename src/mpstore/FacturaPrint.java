@@ -180,8 +180,8 @@ public class FacturaPrint extends javax.swing.JDialog {
         
         Session sesion = Session.getDefaultInstance(propiedad);
         
-        String correoEnvia = "mp.store.santarosa@gmail.com";
-        String contrasena = "Pamela2021";
+        String correoEnvia = "";
+        String contrasena = "";
         String destinatario = FacturaPanel.jTextFieldCorreo.getText();//cambiar por el correo del cliente a enviar 
         String asunto = "Envío factura MP store de: "+FacturaPanel.jLabelPresentado1.getText()+" fecha: "+FacturaPanel.jLabelFecha1.getText()+"";
         String mensaje = "Muchas gracias por su compra, buen día.";
